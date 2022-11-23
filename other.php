@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="background-img-wrapper">
+        <h1>Próba kép Apple Eszközökre!</h1>
+        <picture>
+            <source class="landscape" media="(orientation: landscape)" srcset="img/allando-lakcimre-torteno-bejelentes-veszelyei-tablet1.jpg 1025w,
+            img/allando-lakcimre-torteno-bejelentes-veszelyei-pc.jpg 1920w,
+            img/allando-lakcimre-torteno-bejelentes-veszelyei-tv.jpg 1921w">
+            <source class="portrait" media="(orientation: portrait)" srcset="img/allando-lakcimre-torteno-bejelentes-veszelyei-phone2.jpg 414w,
+            img/allando-lakcimre-torteno-bejelentes-veszelyei-tablet2.jpg 1024w">
+            <img src="img/allando-lakcimre-torteno-bejelentes-veszelyei-tv.jpg" class="bg-img" id="bgpic" alt="">
+        </picture>
+    </div>
+</body>
+</html>
